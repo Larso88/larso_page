@@ -9,7 +9,7 @@ import Info from "./pages/Info";
 
 
 const App = () => {
-  return (   <div className={"min-h-screen mx-10 flex flex-col"}>
+  return (   <div className={"min-h-screen flex flex-col bg-gradient-to-r from-stone-900 to-stone-700 text-stone-300"}>
         <TopNavigation />
         <Routes>
             <Route path={"/"} element={<Home />} />
@@ -17,8 +17,6 @@ const App = () => {
             <Route path={"/favorite-movies"} element={<FavoriteMovies />} />
             <Route path={"/cv"} element={<CV />} />
             <Route path={"/info"} element={<Info />} />
-
-
         </Routes>
       </div>
   );
