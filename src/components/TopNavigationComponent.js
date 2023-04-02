@@ -4,19 +4,19 @@ const TopNavigation = () => {
     return (<div className={"mt-14 mb-8 border-b-2 border-green-700 p-4"}>
         <ul className={"w-full flex flex-row justify-between text-3xl text-green-700 font-thin"}>
         <li>
-           <Link to={"/"} > Hjem</Link>
+           <Link to={"/"} >Home</Link>
         </li>
         <li>
             <Link to={"/favorite-movies"} > Favorite Movies</Link>
         </li>
         <li>
-            <Link  to={"/CV"} >Arrangement</Link>
+            <Link  to={"/cv"} >CV</Link>
         </li>
         <li>
-            <Link to={"/reidun"} >Om Reidun </Link>
+            <Link to={"/about"} >Abouts Lars Ole </Link>
         </li>
         <li>
-            <Link to={"/contact"} >Kontakt</Link>
+            <Link to={"/contact"} >Contact</Link>
         </li>
         </ul>
     </div>)
